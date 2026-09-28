@@ -1,0 +1,4 @@
+$ curl -sS -c work/bookstore-cookies.txt -X POST http://127.0.0.1:5050/customer/login -H 'Content-Type: application/json' -d '{"username": "bookreader", "password": "BookReview-Demo-2026"}'
+{
+  "message": "Customer successfully logged in."
+}

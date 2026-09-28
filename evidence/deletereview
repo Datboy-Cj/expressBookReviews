@@ -1,0 +1,5 @@
+$ curl -sS -b work/bookstore-cookies.txt -X DELETE http://127.0.0.1:5050/customer/auth/review/1
+{
+  "message": "Review successfully deleted.",
+  "reviews": {}
+}

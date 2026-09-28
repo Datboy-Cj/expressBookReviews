@@ -1,0 +1,10 @@
+$ curl -sS https://api.github.com/repos/Datboy-Cj/expressBookReviews | /Users/cjjohnson/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -c 'import sys,json; r=json.load(sys.stdin); print(json.dumps({"full_name":r["full_name"],"html_url":r["html_url"],"fork":r["fork"],"parent":{"full_name":r["parent"]["full_name"],"html_url":r["parent"]["html_url"]}},indent=2))'
+{
+  "full_name": "Datboy-Cj/expressBookReviews",
+  "html_url": "https://github.com/Datboy-Cj/expressBookReviews",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/expressBookReviews",
+    "html_url": "https://github.com/ibm-developer-skills-network/expressBookReviews"
+  }
+}

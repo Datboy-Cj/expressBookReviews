@@ -1,0 +1,4 @@
+$ curl -sS -X POST http://127.0.0.1:5050/register -H 'Content-Type: application/json' -d '{"username": "bookreader", "password": "BookReview-Demo-2026"}'
+{
+  "message": "User successfully registered. You can now log in."
+}

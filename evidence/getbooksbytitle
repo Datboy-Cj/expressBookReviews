@@ -1,0 +1,8 @@
+$ curl -sS http://127.0.0.1:5050/title/Things%20Fall%20Apart
+{
+  "1": {
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart",
+    "reviews": {}
+  }
+}

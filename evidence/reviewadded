@@ -1,0 +1,14 @@
+$ curl -sS -b work/bookstore-cookies.txt -X PUT http://127.0.0.1:5050/customer/auth/review/1 -H 'Content-Type: application/json' -d '{"review": "A compelling novel about tradition and change in Igbo society."}'
+{
+  "message": "Review successfully added.",
+  "reviews": {
+    "bookreader": "A compelling novel about tradition and change in Igbo society."
+  }
+}
+$ curl -sS -b work/bookstore-cookies.txt -X PUT http://127.0.0.1:5050/customer/auth/review/1 -H 'Content-Type: application/json' -d '{"review": "A compelling, beautifully written novel about tradition, colonialism, and change in Igbo society."}'
+{
+  "message": "Review successfully modified.",
+  "reviews": {
+    "bookreader": "A compelling, beautifully written novel about tradition, colonialism, and change in Igbo society."
+  }
+}

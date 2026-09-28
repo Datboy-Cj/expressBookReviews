@@ -1,0 +1,6 @@
+$ curl -sS http://127.0.0.1:5050/isbn/1
+{
+  "author": "Chinua Achebe",
+  "title": "Things Fall Apart",
+  "reviews": {}
+}
